@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
+
+.first-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/portfolio-background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-home {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.logo {
+
+    margin-top: 15%;
+    margin-left: 8%;
+    color: white;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.button {
+    color: #ea1538;
+    font-weight: bold;
+    font-size: 80px;
+
+}
+span {
+    color: #e74d06;
+    font-weight: bold;
+}
+
+
+span:hover {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 300px;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: .3s;
+}
+
+span2 {
+    color: whitesmoke;
+    font-size: 28px;
+    margin-top: 20%;
+    margin-left: 12%;
+
+}
+
+
+.button {
+    margin-top: 5px;
+    margin-left: 66%;
+}
+
+.profile-section {
+    display: flex;
+    margin-left: 65%;
+    padding-bottom: 10px;
+}
+
+.profile-picture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid whitesmoke;
+
+}
+
+.intro {
+    background: transparent;
+
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+
+
+.myintro {
+    margin-left: 7%;
+    margin-right: 50%;
+    background: transparent;
+    font-style: italic;
+    color: black;
+    text-align: justify;
+}
+
+.intro-img {
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+
+.wrapper img {
+    max-width: 320px;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    margin-left: 200px;
+    text-align: center;
+    display: block;
+    margin-top: 25%;
+
+}
+
+.text-box {
+    color: black;
+    text-align: justify;
+
+
+
+}
+
+.text-box h3 {
+    margin-top: 25%;
+    font-size: 42px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.text-box p {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.second_section {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: fit-content;
+
+}
+
+.text-box ul li {
+    color: black;
+    list-style-type: square;
+
+}
+
+.text-box h5 {
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 25px;
+
+}
+
+.quotes p {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    color: darkgoldenrod;
+    margin-left: 350px;
+}
+
+.leftside,
+.rightside {
+    height: 100vh;
+    width: 100%;
+}
+
+.education-details h5 {
+    font-size: 42px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 7%;
+    color: black;
+}
+
+
+.third-section {
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:fit-content;
+    
+}
+
+.skill-section {
+    width: 100%;
+    height: auto;
+    padding: 80px 13%;
+    
+}
+
+.header-skill-head {
+    width: 100%;
+    margin-bottom: 80px;
+
+    place-items: center;
+    text-align: center;
+}
+
+.header-skill-head h2 {
+    margin-bottom: -5px;
+}
+
+.header-skill-head span {
+    color: #e74d06;
+}
+
+.skill-section {
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: fit-content;
+
+}
+
+.skill-section .info{
+    color:black;
+}
+
+.skill-section h2{
+    color: black;
+}
+
+
+.middle-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.block {
+    flex: 0 0 calc(33.33% - 50px); 
+    background-color:transparent;
+    padding: 60px;
+    margin: 10px;
+    border: 1px solid transparent;
+}
+
+.bg-gradient{
+    background-color:darkcyan;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.rightpart{
+    font-weight:600;
+    text-align: justify;
+}
+
+
+.header-softskill-head {
+    width: 100%;
+    margin-bottom: 80px;
+
+    place-items: center;
+    text-align: center;
+}
